@@ -36,7 +36,8 @@ public class ShipController : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector3 (0, 0, 0);
         }
     }
- 
+    
+    
     void ShootBullet(){
         spawnerBullet.SpawnBullet();
         audioManager.ShootPlayAudio();
